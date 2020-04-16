@@ -1,0 +1,41 @@
+/*Estilos Css para site Venon finans*/
+
+.ajusta-botao-res {
+	margin-top: -40px;
+}
+
+.arruma-botao {
+	padding-top: 5px;
+	left: auto;
+}
+
+#nav-principal ul li a:hover {
+	border-bottom: 1px solid white;
+}   
+
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.edit {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;  
+}
+
+.edit1 {
+	padding-left: 40px;  
+}
+
+.iphone {
+	padding: 80px 100px 10px;
+
+}
+
+footer p a {
+	margin: 5px 15px;
+	
+}
+
+
+

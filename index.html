@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  || aqui eu estou utilizando o link direto do bootstrap CND -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"  href="fontawesome/css/all.css">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- A ideia deste site ficticio é aprensentar um software de gestão de finanças pessoas dando o auxilio para usuarios que presisa de um "Horizonte" para poder investir da maneira certa! -->
+
+    <title>Venon|Finans - Finanças Pessoais</title>
+  </head>
+  <body>
+
+    <!--Inicio da Navegação do VenonFinancs -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning ">
+        <!-- logo do site -->
+        <!-- Begin Header -->
+           <div class="container"> 
+               <a href="#" class="navbar nav-brand">   <!-- Defino a largura do "logo!" -->
+                   <img src="imagens/venon-finans.png" width="148"> 
+               </a>  
+           </div>
+
+           <!--Aplicar a responsividade um botão quando a tela diminui  -->
+           <button class="navbar-toggler bg-light ml-auto ajusta-botao-res" data-toggle="collapse" data-target="#nav-principal">
+             <span class="navbar-toggler-icon "></span>
+           </button>
+
+           <div class="collapse navbar-collapse" id="nav-principal">
+               <ul class="navbar-nav ">
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Recursos</a>
+                   </li>
+
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Benefícios</a>
+                   </li>
+
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Preço</a>
+                   </li>
+
+
+                   <li class="nav-item">     <!-- Botão para o usuario se cadastrar! -->
+                       <a href="#" class="btn btn-outline-light ml-3">Entrar</a>
+                   </li>
+               </ul>
+           </div>
+        </nav>  
+        <!--termino do nav! -->            
+    </header>
+     <!--header End -->
+
+      <!-- Inicio da Sessão -->
+     <section id="home"> 
+       <div class="container">
+         <div class="row">  
+           <div class="col-md-6 d-flex"> <!-- textos da sessão --><!--Transformando um container em um flex box usando d-flex -->
+            <div class="align-self-center "> <!-- Alinhando textos central -->
+              <h1 class="display-4">Suas contas, Descomplicadas</h1>
+              <p>Usado por mais de 1 milhão de pessoas é uma ferramenta online que vai facilitar 
+                 sua vida Financeira Venon-Finans é a gestão financeira para fazer seu negocio ou seu  sonho tornar-se 
+                 realidade
+             </p>
+             <form class="mt-4 mb-4">     <!--junta os elementos  |||| input-group-lg torna os elementos maior  -->            
+               <div class="input-group input-group-lg">
+                <input type="text" placeholder="Seu e-mail" class="form-control">
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-primary">Cadastre-se</button>
+                    </div>
+               </div>
+             </form>
+             <!--colocando os botões de links android e apple --->
+             <p>Disponivel para
+                 <a href="" class="btn btn-outline-light">
+                     <i class="fab fa-android"></i>  
+                 </a>
+
+                 <a href="" class="btn btn-outline-light">
+                     <i class="fab fa-apple"></i>  
+                 </a> 
+             </p>
+
+            </div>
+             
+           </div>  <!-- Fim da sessão 
+                     d-none = oculto um item e so vou exibir para um determinado item d-md-block  -->
+           <div class="col-md-6 d-none d-md-block">
+             <img src="imagens/capa-mulher-editada.png">
+           </div>
+         </div>
+       </div>
+     </section> <!-- Fim da Sessão -->
+
+     <section class="edit"> <!-- inicio de uma nova sessão -->
+         <div id="container">
+             <div class="row">
+                 <div class="col-md-6 d-flex">
+                     <div class="align-self-center edit1">
+                         <h1>Saiba para onde vai o seu dinheiro</h1>
+                         <p>Com o venon|Finans, você categoriza todos os seus lançamentos, com  Graficos simples, você sabe da onde vem e para onde vai o seu dinheiro
+                         </p>
+                         <a href="" class="btn btn-primary">Veja Mais..</a>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <img src="imagens/saiba.png" class="img-fluid">
+                 </div>
+             </div>
+         </div> 
+     </section> <!-- Fim  sessão -->
+     <!--------Criando mais uma section------------------>
+     <section class="edit">
+         <div id="container">
+             <div class="row">
+                 <div class="col-md-6 d-flex">
+                    <img src="imagens/juros.png" class="img-fluid edit1 iphone ">
+                  </div>  
+                 <div class="col-md-6 d-flex">
+                 <div class="align-self-center">
+                  <h1>Pare de pagar Juros e economize</h1>
+                  <p>
+                     Manter as contas em dia é sempre um problema? O venonFinans avisa você: receba alertas de contas a pagar  e a receber.
+                  </p> 
+                  <a href="" class="btn btn-primary ">Veja Mais..</a>
+                  </div>
+                 </div>  
+             </div>  
+         </div>  
+     </section> <!--  fim sessão  -->
+
+     <section class="iphone edit"> <!--Sessão grid repartido de 4 -->
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="imagens/facil.png" class="img-fluid">
+            <h1>Fácil de usar</h1>
+            <p>O Venon|Financs vai alem do basico e permite que você faça 
+               controles incriveis, essencialmente para suas finanças. Simples como tem que ser
+            </p>            
+          </div>
+          <div class="col-sm-4">
+            <img src="imagens/economize.png" class="img-fluid">
+            <h1>Economize seu tempo</h1>
+            <p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo  com   o que realmente importa para você 
+            </p>  
+          </div>
+          <div class="col-sm-4">
+            <img src="imagens/suporte.png" class="img-fluid">
+            <h1>Suporte Amigo</h1>
+            <p> Dúvidas? Perguntas? Nosso suporte super legal ajuda você! agente tá aqui pra reslver seus problemas  e deixar sua vida bem mais fácil. 
+            </p>  
+          </div>  
+        </div>
+       </div>
+     </section> 
+
+     <footer class="mt-4 mb-4 "> <!-- Inicio do footer  -->
+         <div class="container">
+             <div class="row">
+               <div class="col-md-8">
+                 <p>
+                    <a href="#" class="badge badge-warning">Home</a>
+                    <a href="#" class="badge badge-warning">Recursos</a>
+                    <a href="#" class="badge badge-warning">Benefícios</a>
+                    <a href="#" class="badge badge-warning">Preços</a>
+                 </p>
+               </div>
+
+               <div class="col-md-4 d-flex justify-content-end fa-3x">
+                <a href="" class="btn btn-outline-dark ml-2">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="" class="btn btn-outline-dark ml-2">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                 <a href="" class="btn btn-outline-dark ml-2">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="btn btn-outline-dark ml-2">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="btn btn-outline-dark ml-2">
+                  <i class="fab fa-youtube"></i>
+                </a>
+               </div>
+             </div>
+         </div>  
+     </footer> <!-- Fim do footer  18474635845 -->
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
